@@ -10,7 +10,9 @@ ie http://somepackage.host.someplace far far away...  > /usr/portage/packages (b
 Else your distro's package dir. 
 
 -"chainsaw" open iso in docker-hub is like an atari joypad and a chainsaw-on a robot arm 3000 miles over. 
-however its my use case, if you need a SID debian then go forze it. 
+- however its my use case, if you need a SID debian then go forze it.  i'd Imagine using build csync to a cloud location ie 
+-  owncloud for your repo from circleci or dockerhub out will still be useful. 
+- Pentoo I could slowly layer out and compile the live distro in docker progressivley but x4 too much work. Just want CHROOT to make sure if on Sabayon/Gentoo/Pentoo packages work, accross varriants. 
 
 https://github.com/gentoo/gentoo-docker-images/tree/master/amd64-hardened/Dockerfile
 https://github.com/gentoo/gentoo-docker-images/blob/master/amd64-hardened/build.sh

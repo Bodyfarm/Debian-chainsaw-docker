@@ -10,14 +10,15 @@ ie http://somepackage.host.someplace far far away...  > /usr/portage/packages (b
 Else your distro's package dir. 
 
 -"chainsaw" open iso in docker-hub is like an atari joypad and a chainsaw-on a robot arm 3000 miles over. 
+however its my use case, if you need a SID debian then go forze it. 
 
 https://github.com/gentoo/gentoo-docker-images/tree/master/amd64-hardened/Dockerfile
 https://github.com/gentoo/gentoo-docker-images/blob/master/amd64-hardened/build.sh
 make Debian or FROM busybox .. 
 
-however light the gentoo Base Stage is so limiting and confining, why not get a fater iso with the tools wanted insted of stringing them together in progresive docker Stages. <img src="http://www.olgasflavorfactory.com/wp-content/uploads/2013/10/Slice-of-Chocolate-Strawberry-Layer-Cake.jpg" height="197" width="248"> yup you can stack containers like a layer cake or weding cake. however doing it in steps for 4 flavor varriants is a royal pest.  also one fine mess. <img src="http://www.nelcoproducts.com/blog/wp-content/uploads/2012/01/tangled-christmas-lights4.jpg" height="197" width="248">
+however light the gentoo Base Stage is so limiting and confining, why not get a fater iso with the tools wanted insted of stringing them together in progresive docker Stages. <img src="http://www.olgasflavorfactory.com/wp-content/uploads/2013/10/Slice-of-Chocolate-Strawberry-Layer-Cake.jpg" height="120" width="210"> yup you can stack containers like a layer cake or weding cake. however doing it in steps for 4 flavor varriants is a royal pest.  also one fine mess. <img src="http://www.nelcoproducts.com/blog/wp-content/uploads/2012/01/tangled-christmas-lights4.jpg" height="120" width="210">
 and if a user pulls Cross stream packages from Default and hardened systems that not good. 
-<img src="https://media0.giphy.com/media/Vse57fdw0kkLK/200_s.gif" height="197" width="248">
+<img src="https://media0.giphy.com/media/Vse57fdw0kkLK/200_s.gif" height="120" width="210">
 
 MY Primary Distro [Sabayon] is based upon Gentoo , I also Like [Pentoo]  
 however some of my package scripts are more Exotic of the Pen-testing/IT-Security Audit  variety.. 

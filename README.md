@@ -9,15 +9,19 @@ Debian-chainsaw-docker  USED for CHROOT switch Distro stages, side order of 7-zi
 ie http://somepackage.host.someplace far far away...  > /usr/portage/packages (binaries) 
 Else your distro's package dir. 
 
+-"chainsaw" open iso in docker-hub is like an atari joypad and a chainsaw-on a robot arm 3000 miles over. 
+
 https://github.com/gentoo/gentoo-docker-images/tree/master/amd64-hardened/Dockerfile
 https://github.com/gentoo/gentoo-docker-images/blob/master/amd64-hardened/build.sh
 make Debian or FROM busybox .. 
 
-however light the gentoo Base Stage is so limiting and confining, why not get a fater iso with the tools wanted insted of stringing them together in progresive docker Stages.  that is a mess if you have 4 flavor varrients. 
+however light the gentoo Base Stage is so limiting and confining, why not get a fater iso with the tools wanted insted of stringing them together in progresive docker Stages. <img src="http://www.olgasflavorfactory.com/wp-content/uploads/2013/10/Slice-of-Chocolate-Strawberry-Layer-Cake.jpg" height="197" width="248"> yup you can stack containers like a layer cake or weding cake. however doing it in steps for 4 flavor varriants is a royal pest.  also one fine mess. <img src="http://www.nelcoproducts.com/blog/wp-content/uploads/2012/01/tangled-christmas-lights4.jpg" height="197" width="248">
+and if a user pulls Cross stream packages from Default and hardened systems that not good. 
+<img src="https://media0.giphy.com/media/Vse57fdw0kkLK/200_s.gif" height="197" width="248">
 
 MY Primary Distro [Sabayon] is based upon Gentoo , I also Like [Pentoo]  
 however some of my package scripts are more Exotic of the Pen-testing/IT-Security Audit  variety.. 
-with sabayon Adding in many of the Pentoo tols is rather trivial. 
+with sabayon Adding in many of the Pentoo tols is rather trivial, and as a repo its a good place to volentter them. 
 ie spikelinux bin repo and or layman. 
 however making sure if I upstream a package that it will build easily 
 in the stock pentoo Enviorment is my specific use case ,

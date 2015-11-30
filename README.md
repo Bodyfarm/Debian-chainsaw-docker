@@ -21,8 +21,8 @@ and if a user pulls Cross stream packages from Default and hardened systems that
 <img src="https://media0.giphy.com/media/Vse57fdw0kkLK/200_s.gif" height="120" width="210">
 
 MY Primary Distro [Sabayon] is based upon Gentoo , I also Like [Pentoo]  
-however some of my package scripts are more Exotic of the Pen-testing/IT-Security Audit  variety.. 
-with sabayon Adding in many of the Pentoo tols is rather trivial, and as a repo its a good place to volentter them. 
+however some of my package scripts are more Exotic of the Pen-testing/IT-Security Audit  variety.. And I do IT security research. 
+with sabayon Adding in many of the Pentoo tols is rather trivial, and as a repo its a good place to volunteer them too. 
 ie spikelinux bin repo and or layman. 
 however making sure if I upstream a package that it will build easily 
 in the stock pentoo Enviorment is my specific use case ,

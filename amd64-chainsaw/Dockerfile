@@ -1,11 +1,8 @@
-FROM debian:testing #FROM scratch
+FROM debian:testing 
+#FROM scratch
 MAINTAINER Necrose99 necrose99@protonmail.net
 # ADD http://pc.cd/DzIrtalK /
-#FROM debian:jessie
-#FROM debian:testing
-MAINTAINER Necrose99 necrose99@protonmail.net
-# ADD http://pc.cd/DzIrtalK /
-# CMD ["/bin/bash"]
+
 RUN echo "deb http://cdn.debian.net/debian/ testing main non-free contrib" >> /etc/apt/sources.list
 RUN apt-get install --assume-yes locales
 RUN locale-gen
